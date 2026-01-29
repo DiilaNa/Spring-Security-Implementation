@@ -18,11 +18,12 @@ $(document).ready(function () {
             success: function (res) {
                 const token = res.data.accessToken;
                 localStorage.setItem("token", token);
+                localStorage.setItem("username", loginData.userName);
+
                 if (!token){
                     window.location.href = "../Pages/Sign_In.html"
                 }
 
-                // Delay for safety (optional)
                 setTimeout(() => {
                     redirectBasedOnRole(token);
                 }, 100);
