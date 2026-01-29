@@ -70,9 +70,9 @@ src/main/java/com/yourname/security/
 
 ## ⚙️ How to Run
 
-1. **Clone the project:**
+1. **Download the project:**
    ```bash
-   git clone https://github.com/DiilaNa/Spring_Security.git 
+    https://github.com/DiilaNa/Spring_Security.git 
    ```
 2. **Configure Database:** Update src/main/resources/application.properties with your DB credentials.  
 
